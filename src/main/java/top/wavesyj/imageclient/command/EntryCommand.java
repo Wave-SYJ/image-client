@@ -5,6 +5,7 @@ import picocli.CommandLine;
 
 @TopCommand
 @CommandLine.Command(
+        name = "imgcli",
         mixinStandardHelpOptions = true,
         subcommands = {ConfigCommand.class, UploadCommand.class},
         version = "image-client 0.1")

@@ -14,7 +14,7 @@ import java.net.URI;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-@CommandLine.Command(name = "upload", description = "Upload pictures")
+@CommandLine.Command(name = "upload", aliases = "u", description = "Upload pictures", mixinStandardHelpOptions = true)
 public class UploadCommand implements Runnable {
 
     @CommandLine.Parameters(arity = "1..*")

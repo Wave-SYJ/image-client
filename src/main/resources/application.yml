@@ -1,0 +1,9 @@
+"%dev":
+  quarkus:
+    console:
+      color: true
+
+quarkus:
+  log:
+    console:
+      enable: false
